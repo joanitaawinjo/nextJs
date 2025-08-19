@@ -10,18 +10,20 @@ export default function Home() {
             <div className="mt-8">
                 <div className='flex'>
                     <aside className="w-1/4 pr-8">
+
                         <ul className="space-y-2 text-sm text-black ml-40">
-                            <li className="flex justify-between items-center">Woman's Fashion <span className="text-gray-500">&gt;</span></li>
-                            <li className="flex justify-between items-center">Men's Fashion <span className="text-gray-500">&gt;</span>
+                            <li className="flex justify-between items-center">Woman&apos;s Fashion <span className="text-gray-500">&gt;</span></li>
+                            <li className="flex justify-between items-center">Men&apos;s Fashion <span className="text-gray-500">&gt;</span>
                             </li>
                             <li>Electronics</li>
-                            <li>Home & Lifestyle</li>
+                            <li>Home &amp; Lifestyle</li>
                             <li>Medicine</li>
-                            <li>Sports & Outdoor</li>
-                            <li>Baby's & Toys</li>
-                            <li>Groceries & Pets</li>
-                            <li>Health & Beauty</li>
+                            <li>Sports &amp; Outdoor</li>
+                            <li>Baby&apos;s &amp; Toys</li>
+                            <li>Groceries &amp; Pets</li>
+                            <li>Health &amp; Beauty</li>
                         </ul>
+
                     </aside>
 
                     <section className="w-4/6 bg-black text-white p-20 relative h-110">
@@ -44,7 +46,7 @@ export default function Home() {
                 <section className="py-10">
                     <div className="container mx-auto px-4">
                         <div className="items-center justify-between mb-6">
-                            <span className="text-red-600 font-bold">Today's</span>
+                            <span className="text-red-600 font-bold">Today&apos;s</span>
                             <h2 className="text-2xl font-bold text-black">Flash Sales</h2>
                             <button className="bg-red-600 text-white px-3 py-1 rounded text-sm">View All</button>
                         </div>
@@ -198,8 +200,8 @@ export default function Home() {
                             <div className="p-4 rounded shadow">
                                 <Image src="/images/chainchair.jpeg" alt="Small BookShelf" width={200} height={200} />
                                 <p>Small BookShelf</p>
-                                 <p className="text-red-500 text-lg">$160.00</p>
-                                 <p className="text-yellow-500 text-xs">★★★★☆ (35)</p>
+                                <p className="text-red-500 text-lg">$160.00</p>
+                                <p className="text-yellow-500 text-xs">★★★★☆ (35)</p>
                             </div>
                         </div>
                     </div>
