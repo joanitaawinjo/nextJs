@@ -6,27 +6,25 @@ import Image from "next/image";
 export default function Signup() {
     return (
         <>
-        <Header/>
-        <div className="flex">
+            <Header />
+            <div className="flex">
                 <Image src="/images/iphoimage-removebg-preview.png" width={500} height={500} className="w-4/7 bg-blue-200" alt="iPhone" />
-            <div className="mt-40 w-90 ml-50">
-                <h1 className="text-4xl font-bold mb-2 p-2">Create an account</h1>
-                <p className="text-sm mb-8 p-2">Enter your details below</p>
+                <div className="mt-40 w-90 ml-50">
+                    <h1 className="text-3xl font-bold mb-2 p-2">Login in to Exclusive</h1>
+                    <p className="text-sm mb-8 p-2">Enter your details below</p>
 
-                <form className="space-y-4">
-                    <input type="text" placeholder="Name" className="w-full border-b border-gray-300 p-2 focus:outline-none" />
-                    <input type="text" placeholder="Email or Phone Number" className="w-full border-b border-gray-300 p-2 focus:outline-none" />
-                    <input type="text" placeholder="Password" className="w-full border-b border-gray-300 p-2 focus:outline-none" />
-                    <div className="grid grid-rows-2 gap-6">
-                        <button className="bg-red-500 rounded-sm cursor-pointer mt-6 p-3 text-white font-bold">Create Acount</button>
-                        <button className="rounded-sm border-1 border-gray-500 cursor-pointer">Sign up with Google</button>
-                    </div>
-                    <p className="">Don&apos;t have an account? <Link href= '/' className="font-bolds">Sign up </Link></p>
-                </form >
+                    <form className="space-y-4">
+                        <input type="text" placeholder="Email or Phone Number" className="w-full border-b border-gray-300 p-2 focus:outline-none" />
+                        <input type="text" placeholder="Password" className="w-full border-b border-gray-300 p-2 focus:outline-none" />
+                        <div className="flex gap-25">
+                            <button className="bg-red-500 rounded-sm cursor-pointer mt-6 p-3 text-white font-bold w-2/6">Login</button>
+                            <button className="cursor-pointer text-red-500 mt-10">Forgot Password?</button>
+                        </div>
+                    </form >
+                </div>
             </div>
-            </div>
-            <br/>
-            <Footer/>
+            <br />
+            <Footer />
         </>
     )
 }
