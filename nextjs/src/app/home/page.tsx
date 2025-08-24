@@ -264,7 +264,7 @@ export default function Home() {
                                 <p className="text-red-600">$700</p>
                             </div>
                             <div className="p-4 rounded shadow">
-                                <Image src="/images/jelly.png" alt="Curology Product Set" width={200} height={200} />
+                                <Image src="/image</div>s/jelly.png" alt="Curology Product Set" width={200} height={200} />
                                 <p>Curology Product Set</p>
                                 <p className="text-red-600">$500</p>
                             </div>
@@ -279,7 +279,7 @@ export default function Home() {
                                 <p className="text-red-600">$1160</p>
                             </div>
                             <div className="p-4 rounded shadow">
-                                <Image src="/images/play.jpg" alt="GP11 Shooter USB Gamepad" width={200} height={200} />
+                                <Image src="/image</div>s/play.jpg" alt="GP11 Shooter USB Gamepad" width={200} height={200} />
                                 <p>GP11 Shooter USB Gamepad</p>
                                 <p className="text-red-600">$660</p>
                             </div>
