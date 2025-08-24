@@ -47,8 +47,10 @@ export default function Home() {
                     <div className="container mx-auto px-4">
                         <div className="items-center justify-between mb-6">
                             <span className="text-red-600 font-bold">Today&apos;s</span>
+                            <div className='flex justify-between'>
                             <h2 className="text-2xl font-bold text-black">Flash Sales</h2>
                             <button className="bg-red-600 text-white px-3 py-1 rounded text-sm">View All</button>
+                            </div>
                         </div>
                         <div className="flex justify-between items-center mb-6">
                             <div className="flex space-x-4 bg-gray-100 p-2 rounded">
@@ -124,8 +126,10 @@ export default function Home() {
                     <div className="container mx-auto px-4">
                         <div className="items-center justify-between mb-6">
                             <span className="text-red-600 font-bold">Categories</span>
+                            <div className='flex justify-between'>
                             <h2 className="text-2xl font-bold text-black">Browse By Category</h2>
                             <button className="bg-red-600 text-white px-3 py-1 rounded text-sm">View All</button>
+                            </div>
                         </div>
                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
                             <div className="border border-gray-300 p-10 text-center rounded shadow">
@@ -161,8 +165,10 @@ export default function Home() {
                     <div className="container mx-auto px-4">
                         <div className="items-center justify-between mb-6">
                             <span className="text-red-600 font-bold">This month</span>
+                            <div className='flex justify-between'>
                             <h2 className="text-2xl font-bold text-black">Best Selling Products</h2>
                             <button className="bg-red-600 text-white px-3 py-1 rounded text-sm">View All</button>
+                            </div>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                             <div className="p-4 rounded shadow">
@@ -233,15 +239,17 @@ export default function Home() {
                     <div className="container mx-auto px-4">
                         <div className="items-center justify-between mb-6">
                             <span className="text-red-600 font-bold">Our Products</span>
+                            <div className='flex justify-between'>
                             <h2 className="text-2xl font-bold text-black">Explore Our Products</h2>
                             <div className="flex space-x-2">
                                 <button className="bg-gray-200 p-2 rounded">&lt;</button>
                                 <button className="bg-gray-200 p-2 rounded">&gt;</button>
                             </div>
+                            </div>
                         </div>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 m-auto">
                             <div className="p-4 rounded shadow">
-                                <Image src="/images/catbag.avif" alt="Breed Dry Dog Food" width={300} height={200} />
+                                <Image src="/images/catbag.avif" alt="Breed Dry Dog Food" width={200} height={200} />
                                 <p>Breed Dry Dog Food</p>
                                 <p className="text-red-600">$100</p>
                             </div>
@@ -292,8 +300,10 @@ export default function Home() {
                     <div className="container mx-auto px-4">
                         <div className="items-center justify-between mb-6">
                             <span className="text-red-600 font-bold">Featured</span>
+                            <div className='flex justify-between'>
                             <h2 className="text-2xl font-bold text-black">New Arrival</h2>
                             <button className="bg-red-600 text-white px-3 py-1 rounded text-sm">View All</button>
+                            </div>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div className="bg-black text-white p-6 rounded relative">
